@@ -1,0 +1,39 @@
+.button {
+    &--size_l {
+        padding: 7px*$rem 25px*$rem;
+    }
+
+    &--size_m {
+        padding-left: 15px*$rem;
+        padding-right: 15px*$rem;
+    }
+
+    &--size_xs {
+        padding: 4px 6px;
+        font-size: 12px;
+    }
+
+    &--size_s {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    &[data-size="wide"] {
+        width: 100%;
+    }
+
+    &__icon {
+        &[data-color="green"] {
+            color: var(--color_success);
+        }
+        &[data-color="red"] {
+            color: var(--color_danger);
+        }
+        &[data-color="blue"] {
+            color: var(--color_primary);
+        }    
+        &[data-color="gray"] {
+            color: #a6a6a6;
+        }    
+    }
+}

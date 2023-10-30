@@ -1,0 +1,50 @@
+
+@import "general/fonts"; //Шрифты
+
+// Темы
+@import "general/themes/default";
+@import "general/themes/light";
+
+// Основные стили страницы
+@import "general/base";
+
+// Иконки
+@import "general/icons";
+@import "general/color";
+@import "general/grid/index";
+
+@import "typography";
+@import "spacing";
+@import "text-decoration";
+@import "helpers";
+@import "nobr";
+
+@import "components/layout";
+
+// Подключение всплывающего центра уведомлений
+@import "components/notification-center";
+
+//Строительные блоки - основной каркас
+@import "components/header/header"; // шапка сайта
+@import "components/topnav/topnav"; // левая часть шапки
+@import "components/topbar/topbar"; // правая часть шапки
+@import "components/topbar/balance"; // правая часть шапки
+@import "components/navbar/navbar"; // меню в левой части сайта
+@import "components/content/content"; // обертка для main и футера
+@import "components/main/main"; // здесь основной контент
+@import "components/footer/footer"; // нижний футер
+@import "components/block"; //Стили для всех карточек
+@import "components/nav/nav";
+@import "components/humburger-button/hamburger-button"; // Гамбургер
+@import "components/section/section"; //Разположение логотипа в topnav
+@import "components/logo/logo"; //Логотип
+@import "components/user-data/user-data"; // Стили для данных пользователя в шапке
+@import "components/profile-menu/profile-menu"; // Выпадающий список в иконке профиля
+
+
+@import "components/button/button";//основные стили для кнопки
+@import "components/button/button-icon";//основные стили для кнопки-иконки
+@import "components/button/data-color"; //цвета кнопки
+@import "components/button/data-size"; //размеры кнопки
+
+@import "components/a/a-color";

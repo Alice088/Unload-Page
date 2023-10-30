@@ -1,0 +1,81 @@
+.order-manager {
+   display: grid;
+   width: 100%;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   grid-gap: $grid-gap;
+
+   grid-column: 1 / span 2;
+
+   @include respond-to(tablet) {
+       grid-column: auto;
+   }
+   
+
+    @include respond-to(desktop) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        grid-gap: 0;
+    }
+
+    @include respond-to(bigger-desktop) {
+        // max-width: 1000px;
+        width: 100%;
+    }
+
+    &__notice {
+        @include respond-to(desktop) {
+            margin-bottom: 15px*$rem;
+        }
+    }
+}
+
+wrapper-order-info {
+
+    display: inline-flex;
+
+    @include respond-to(desktop) {
+        margin-bottom: 15px*$rem;
+        width: 100%;
+    }
+
+    @include respond-to(bigger-desktop) {
+        // display: block;
+        // max-width: 1000px;
+        width: 100%;
+    }
+}
+
+
+wrapper-order-total-data-desktop {
+    display: none;
+  
+    // @include respond-to(bigger-desktop) {
+    //     grid-column: 3;
+    //     grid-row: 1;
+    //     display: block; 
+    //     margin-left: 15px*$rem;   
+    //     width: 345px;
+    // }
+
+    
+}
+
+wrapper-order-manager {
+    // display: flex;
+    grid-column: 1 / span 2;
+
+    @include respond-to(tablet) {
+        grid-column: auto;
+    }
+}
+
+
+wrapper-order-total-data-mobile {
+    display: block;
+
+    @include respond-to(bigger-desktop) {
+        // display: none;
+    }
+}

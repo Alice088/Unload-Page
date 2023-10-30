@@ -1,0 +1,14 @@
+.connect-seller-steps {
+  // padding-top: 28px;
+  width: 100%;
+
+  @include respond-to(tablet) {
+    max-width: 100%;
+  }
+
+
+  @include respond-to(desktop) {
+    max-width: 900px;
+    width: 100%;
+  }
+}

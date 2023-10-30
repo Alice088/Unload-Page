@@ -1,0 +1,80 @@
+@mixin respond-to($media) {
+	@if ($media == bigger-desktop) {
+		@media only screen and (min-width : 1600px) {
+			@content
+		}
+	}
+
+	@if ($media == xxl) {
+		@media only screen and (min-width : 1600px) {
+			@content
+		}
+	}
+
+	@if ($media == big-desktop) {
+		@media only screen and (min-width : 1440px) {
+			@content
+		}
+	}
+
+	@if ($media == desktop) {
+		@media only screen and (min-width : 1200px) {
+			@content
+		}
+	}
+	@if ($media == xl) {
+		@media only screen and (min-width : 1200px) {
+			@content
+		}
+	}
+
+	@if ($media == tablet) {
+		@media only screen and (min-width : 992px) {
+			@content
+		}
+	}
+	@if ($media == lg) {
+		@media only screen and (min-width : 992px) {
+			@content
+		}
+	}
+
+	@if ($media == small-tablet) {
+		@media only screen and (min-width : 768px) {
+			@content
+		}
+	}
+	@if ($media == xslg) {
+		@media only screen and (min-width : 768px) {
+			@content
+		}
+	}
+
+	@if ($media == mobile) {
+		@media only screen and (min-width : 578px) {
+			@content
+		}
+	}
+	@if ($media == md) {
+		@media only screen and (min-width : 578px) {
+			@content
+		}
+	}
+
+	@if ($media == small-mobile) {
+		@media only screen and (min-width : 375px) {
+			@content
+		}
+	}
+	@if ($media == sm) {
+		@media only screen and (min-width : 375px) {
+			@content
+		}
+	}
+
+	@if ($media == xs) {
+		@media only screen and (min-width : 0px) {
+			@content
+		}
+	}
+}    
