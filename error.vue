@@ -29,7 +29,7 @@
       </div>
 
       <div class="errors-404__img">
-        <img src="/images/errors/404.png" width="471" height="444" />
+        <img src="/images/errors/404.png" width="471" height="444"  alt="ошибка 404" />
       </div>
     </div>
   </div>
